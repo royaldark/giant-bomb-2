@@ -1,0 +1,25 @@
+@import './base.css';
+
+#app {
+  font-weight: normal;
+}
+
+#app > main {
+  padding: 1rem;
+  margin-top: var(--header-height);
+}
+
+#app > header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: gray;
+  height: var(--header-height);
+}
+
+a {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
